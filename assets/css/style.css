@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Merchant;
+    src: url(../font/Merchant-Regular.ttf);
+}
+
+
+/* Normalización del css */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+
+/* Estilos generales */
+.merchant{
+    font-family: Merchant;
+}
+
+body{
+    background-color: #303333;
+}
+
+.newContainer{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 64px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    color: #cccccc;
+    font-size: 14px;
+}
+
+
+
+/* Header */
+.heroSection{
+    background-image: url(../img/bg-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.heroSection .newContainer .textHeader{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.heroSection .newContainer .imgHeader{
+    margin: auto;
+}
+
+.heroSection .imgHeader img{
+    height: 500px;
+    margin:auto;
+    transform: translateY(50px);
+}
+
+.btnCta{
+    border-radius: 8px;
+    background: linear-gradient(91deg, #9A65DB 0.14%, #F52C40 100.85%);
+    box-shadow: 0px 0px 32px 0px rgba(255, 255, 255, 0.20);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    transform: scale(1);
+    transition: transform .3s ease;
+}
+
+.btnCta:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* About */
+main section{
+    width: 100%;
+    display: flex;
+    padding: 60px 0px;
+}
+
+main .about .newContainer{
+    flex-direction: column;
+}
+
+main .about .newContainer .aboutItems{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+
+
