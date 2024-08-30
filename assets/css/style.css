@@ -209,3 +209,18 @@ main .skills .newContainer #slider > * {
     height: 40px;
     width: 40px;
 }
+
+
+ /* Footer */
+ #contact{
+    background-color: #262626;
+    padding: 80px 0px;
+ }
+
+ #btnContact{
+    border: none;
+    max-height: 38px;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 100%;
+ }

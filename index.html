@@ -11,9 +11,9 @@
 
     <nav class="navBar">
         <ul class="contMenu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -33,7 +33,7 @@
     
 
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <div class="newContainer">
                 <h2 class="aboutTitle merchant">About</h2>
                 <div class="aboutItems">
@@ -49,7 +49,7 @@
             </div>
         </section>
 
-        <section class="works">
+        <section class="works" id="works">
             <div class="newContainer">
                 <h2 class="worksTitle merchant">Works</h2>
                 <div class="gallery">
@@ -85,46 +85,48 @@
         </section>
     </main>
 
-    <footer class="footerContact">
+    <footer class="footerContact" id="contact">
         <div class="newContainer">
             <h2 class="contactTitle merchant">Contact</h2>
 
             <form>
-                <div class="row">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                      </div>
-                      <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                      </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-md-5 pt-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-xs-12 col-md-5 pt-3">
+                            <label for="exampleInputName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="exampleInputName">
+                        </div>
+                        <div class="col-xs-12 col-md-2 d-flex align-items-end pt-3">
+                            <button type="submit" class="btnCta" id="btnContact">Enviar</button>
+                        </div>
+                    </div>
+
+                
               </form>
     
               
             <div class="links">
                 <div class="rrss">
                     <ul>
-                        <li><a href="#">IG</a></li>
-                        <li><a href="#">GM</a></li>
-                        <li><a href="#">LI</a></li>
+                        <li><a href="#"><img src="assets/img/ig.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/img/wsp.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/img/li.svg" alt=""></a></li>
                     </ul>
                 </div>
                 <div class="footerMenu">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="contMenu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
+
+            <p>Todos los derechos reservados a espaciorebis.com 2024 ©</p>
         </div>
     </footer>
     
