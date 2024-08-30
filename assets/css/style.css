@@ -12,6 +12,15 @@
     color: #fff;
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Estilos generales */
 .merchant{
@@ -23,10 +32,12 @@ body{
 }
 
 .newContainer{
-    display: flex;
+    width: 90%;
     max-width: 1000px;
+    display: flex;
     margin: auto;
     flex-direction: column;
+
 }
 
 h1{
@@ -47,9 +58,42 @@ p{
     font-size: 14px;
 }
 
+main section{
+    width: 100%;
+    display: flex;
+    padding: 60px 0px;
+    border-bottom: solid 1px #ffffff2c;
+}
+
+/* Barra de navegación */
+.navBar{
+    position: fixed;
+    width: 100%;
+    padding: 8px 0px;
+    z-index: 2;
+}
+
+.navBarBlur{
+    backdrop-filter: blur(16px);
+    background-color: #161616c0;
+}
+
+.navBar .contMenu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+ }
+
+.navBar .contMenu li a{
+    font-weight: 600;
+}
 
 
-/* Header */
+
+
+/* Header / Portada */
 .heroSection{
     background-image: url(../img/bg-header.png);
     background-position: center;
@@ -80,6 +124,9 @@ p{
     transform: translateY(50px);
 }
 
+
+/* Call to action o botónes prnmcipales */
+
 .btnCta{
     border-radius: 8px;
     background: linear-gradient(91deg, #9A65DB 0.14%, #F52C40 100.85%);
@@ -103,12 +150,6 @@ p{
 
 
 /* About */
-main section{
-    width: 100%;
-    display: flex;
-    padding: 60px 0px;
-}
-
 
 main .about .newContainer .aboutItems{
     display: flex;
@@ -146,3 +187,25 @@ main .about .newContainer .aboutItems{
 
  }
 
+
+ /* Skills */
+
+main .skills .newContainer #slider article{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main .skills .newContainer #slider{
+    display: flex;
+    gap: 30px;
+}
+
+main .skills .newContainer #slider > * {
+    margin: 0px !important;
+}
+.skillIcon{
+    aspect-ratio: 1 / 1;
+    height: 40px;
+    width: 40px;
+}
