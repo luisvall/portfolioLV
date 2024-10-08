@@ -1,0 +1,39 @@
+@media ( max-width: 500px ) {
+
+    .heroSection{
+        min-height: 700px;
+        height: 820px;
+    }
+    main .works .newContainer .gallery{
+        display: flex;
+        flex-direction: column;
+        max-height: fit-content;
+    }
+
+    .heroSection .newContainer{
+        flex-direction: column;
+    }
+    .heroSection .newContainer .textHeader{
+        width: 100%;
+        padding-top: 60px;
+    }
+    .heroSection .imgHeader img{
+        height: 500px;
+        transform: translateY(30px);
+    }
+
+    #soon{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    #hati{
+        display: flex;
+    }
+
+    main .skills .newContainer #slider, main .about .newContainer .aboutItems{
+        flex-direction: column;
+    }
+}

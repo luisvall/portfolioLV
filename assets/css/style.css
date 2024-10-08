@@ -168,11 +168,12 @@ main .about .newContainer .aboutItems{
     max-height: 1000px;
  }
 
- main .works .newContainer .gallery img{
+.gallery .linkImg img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+    overflow: hidden;
  }
 
  #sedam{
@@ -183,9 +184,19 @@ main .about .newContainer .aboutItems{
     object-fit: cover;
     overflow: hidden;
     grid-column: 1/3;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
  }
 
+ #soon a img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+ }
+
+ #hati{
+    display: none;
+ }
 
  /* Skills */
 
