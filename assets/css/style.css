@@ -197,11 +197,11 @@ main .about .newContainer .aboutItems{
 
  /* Skills */
 
-/*main .skills .newContainer #slider article{
+main .skills .newContainer #slider article{
     display: flex;
     flex-direction: column;
     gap: 8px;
-}*/
+}
 
 main .skills .newContainer #slider{
     display: flex;
